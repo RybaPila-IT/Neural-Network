@@ -3,6 +3,8 @@ The Neural-Network project is the implementation of
 artificial neural network (aka multi-layer perceptron). <br>
 Project is my "Hello world" in AI field.
 
+---
+
 ## Network description
 Network implemented in network.py module is fully-functional 
 artificial neural network. <br>
@@ -23,6 +25,8 @@ Network constructor:
 - Enables specifying cost function (default is cross entropy cost function).
 - Enables specifying metric for measuring progress on validation set (default is accuracy metric).
 
+---
+
 ## MNIST Dataset
 Network performance is presented with usage of MNIST Dataset.
 MNIST Dataset is a set of hand-written digits with corresponding
@@ -30,10 +34,14 @@ output labels. <br>
 Module loader.py includes functions loading dataset and returning 
 results as numpy arrays.
 
+---
+
 ## Training results
 Results of training network are stored in file net.json. 
 Network (architecture: [784, 100, 30, 10]; training: eta=0.15, lambda_r=5, epochs=150)
 achieved a bit more than 97% accuracy on validation and test dataset.
+
+---
 
 ## Resources
 Project was highly inspired by 3blue1brown youtube channel
